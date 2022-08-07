@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/test-pruebas",
+      "handler": "test-prueba.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/test-pruebas/count",
+      "handler": "test-prueba.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/test-pruebas/:id",
+      "handler": "test-prueba.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/test-pruebas",
+      "handler": "test-prueba.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/test-pruebas/:id",
+      "handler": "test-prueba.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/test-pruebas/:id",
+      "handler": "test-prueba.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
